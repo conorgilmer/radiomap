@@ -1,7 +1,6 @@
 
 <!-- header.php -->
 
-  <body>
 <center>
 <div id="header">
         <div id="content">
