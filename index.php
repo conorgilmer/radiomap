@@ -91,6 +91,16 @@
 
   <body onload="load()">
 <?php include('header.php');?>
+       <div id="content">
+    <table align="center">
+    <tr>
+    <th colspan="2"><a href="add_data.php">Add Report</a></th>
+    <th colspan="2"><a href="list.php">List Reports</a></th>
+    <th colspan="2"><a href="index.php">Map Reports</a></th>
+    </tr>
+</table>
+
     <div id="map" style="width: 800; height: 500px"></div>
 
+</div>
 <?php include('footer.php');?>
