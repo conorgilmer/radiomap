@@ -13,6 +13,10 @@
         icon: 'http://labs.google.com/ridefinder/images/mm_20_blue.png',
         shadow: 'http://labs.google.com/ridefinder/images/mm_20_shadow.png'
       },
+      RX: {
+        icon: 'http://labs.google.com/ridefinder/images/mm_20_blue.png',
+        shadow: 'http://labs.google.com/ridefinder/images/mm_20_shadow.png'
+      },
       tx: {
         icon: 'jcartier_antenna_square.svg.thumb_50.png',
         shadow: 'http://labs.google.com/ridefinder/images/mm_20_shadow.png'
@@ -29,7 +33,7 @@
 
     function load() {
       var map = new google.maps.Map(document.getElementById("map"), {
-        center: new google.maps.LatLng(53.6145, -5.3418),
+        center: new google.maps.LatLng(53.6145, -4.0418),
         zoom: 5,
         mapTypeId: 'roadmap'
       });
