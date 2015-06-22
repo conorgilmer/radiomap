@@ -39,7 +39,7 @@ if(isset($_POST['btn-save']))
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Weight Monitor</title>
+<title>RTE 252 LW Reception Monitor</title>
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 
