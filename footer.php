@@ -4,7 +4,7 @@
 <div id="footer">
         <div id="content">
     <hr /><br/>
-    <label>&copy; No Copyright </label>
+    <label>2015 &copy; No Copyright. Contact:  <a href="mailto:conor.gilmer@gmail.com"> conor.gilmer@gmail.com</a>  </label>
     </div>
 </div>
 
