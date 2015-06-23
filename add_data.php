@@ -53,29 +53,30 @@ if(isset($_POST['btn-save']))
     <th><a href="add_data.php">Add Reading</a></th>
     <th><a href="list.php">List</a></th>
     <th><a href="index.php">Map</a></th>
+    <th><a href="about.php">About</a></th>
     </tr>
 
 
     <tr>
-    <td colspan="3"><input type="text" name="lng" placeholder="Longtitude" required /></td>
+    <td colspan="4"><input type="text" name="lng" placeholder="Longtitude" required /></td>
     </tr>
     <tr>
-    <td colspan="3"><input type="text" name="lat" placeholder="Latitude" required /></td>
+    <td colspan="4"><input type="text" name="lat" placeholder="Latitude" required /></td>
     </tr>
     <tr>
-    <td colspan="3"><input type="text" name="name" placeholder="Name" required /></td>
+    <td colspan="4"><input type="text" name="name" placeholder="Name" required /></td>
     </tr>
     <tr>
-    <td colspan="3"><input type="text" name="address" placeholder="Address" required /></td>
+    <td colspan="4"><input type="text" name="address" placeholder="Address" required /></td>
     </tr>
     <!--tr>
-    <td colspan="3"><input type="text" name="type" placeholder="Type" required /></td>
+    <td colspan="4"><input type="text" name="type" placeholder="Type" required /></td>
     </tr>
     <tr-->
-    <td colspan="3"><input type="text" name="signal" placeholder="Signal" required /></td>
+    <td colspan="4"><input type="text" name="signal" placeholder="Signal" required /></td>
     </tr>
     <tr>
-    <td colspan="3">
+    <td colspan="4">
 
     <button type="submit" name="btn-save"><strong>SAVE</strong></button></td>
     </tr>
