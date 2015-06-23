@@ -48,7 +48,8 @@ if (!$result) {
     <tr>
     <th colspan="2"><a href="add_data.php">Add Report</a></th>
     <th colspan="2"><a href="list.php">List Reports</a></th>
-    <th colspan="2"><a href="index.php">Map Reports</a></th>
+    <th colspan="1"><a href="index.php">Map Reports</a></th>
+    <th colspan="1"><a href="about.php">About</a></th>
     </tr>
     <tr>
     <th>Long</th>
