@@ -11,7 +11,7 @@ class DB_con
  
  public function insert($lng,$lat,$name,$address,$type,$signal)
  {
-  $res = mysql_query("INSERT markers(id, lat,lng,name,address,type,signal) VALUES('','$lat','$lng','$name','$address', '$type', '$signal')");
+  $res = mysql_query("INSERT markers(id, lat,lng,name,address,type,signal, tstamp) VALUES('','$lat','$lng','$name','$address', '$type', '$signal', now())");
   return $res;
  }
  
