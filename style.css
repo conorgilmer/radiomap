@@ -82,5 +82,6 @@ table td button:active
 	margin-top:50px;
 	position:relative;
 	bottom:30px;
-	font-family:Verdana, Geneva, sans-serif;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:15px;
 }
