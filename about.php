@@ -26,7 +26,7 @@
     <td colspan="6">If you don't know your locations longitude and latitude, you can find it on google maps or by using <a target="_blank" href="http://www.freegeocoder.com">www.freegeocoder.com</a>.</td>
     </tr>
     <tr>
-    <td colspan="6">If you can't submit a report on this page, or cant obtain your longitude and latitude, you can email me (conor.gilmer@gmail.com)  your report, with your  details and I will, plot it using your town name.</td>
+    <td colspan="6">If you can't submit a report on this page, or cant obtain your longitude and latitude, you can email me (<a href="mailto:conor.gilmer@gmail.com"> conor.gilmer@gmail.com</a>)  your report, with your  details and I will, plot it using your town name.</td>
     </tr>
     </table>
     </div>
