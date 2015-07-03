@@ -7,4 +7,10 @@ Map Radio Recption in North East Europe where RTE Long Wave 252
 + about page
 
 + export to csv script
-+ edit reports 
++ edit reports
+
+#To do
++ add email field to get details
++ add panel for SINPO 
++ validation
+
