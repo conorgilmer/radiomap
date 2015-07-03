@@ -11,9 +11,10 @@ if(isset($_POST['btn-save']))
 	$address = $_POST['address'];
 	//$type = $_POST['type'];
 	$type = "RX"; 
+	$email = $_POST['email'];
 	$signal = $_POST['signal'];
 	
-	$res=$con->insert($lng, $lat, $name, $address, $type, $signal);
+	$res=$con->insert($lng, $lat, $name, $address, $type, $signal, $email);
 	if($res)
 	{
 		?>
@@ -71,9 +72,12 @@ if(isset($_POST['btn-save']))
     </tr>
     <!--tr>
     <td colspan="4"><input type="text" name="type" placeholder="Type" required /></td>
-    </tr>
-    <tr-->
+    </tr-->
+    <tr>
     <td colspan="4"><input type="text" name="signal" placeholder="Signal" required /></td>
+    </tr>
+    <tr>
+    <td colspan="4"><input type="text" name="email" placeholder="Email Address"  /></td>
     </tr>
     <tr>
     <td colspan="4">
