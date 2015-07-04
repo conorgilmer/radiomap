@@ -23,8 +23,8 @@ if (!$db_selected) {
   die ('Can\'t use db : ' . mysql_error());
 }
 
-// Select all the rows in the markers table
-$query = "SELECT * FROM outage WHERE 1";
+// Select all the rows in the outage table
+$query = "SELECT * FROM outage order by date asc WHERE 1";
 $result = mysql_query($query);
 if (!$result) {
   die('Invalid query: ' . mysql_error());
@@ -52,12 +52,12 @@ if (!$result) {
     <th colspan="1"><a href="about.php">About</a></th>
     </tr>
     <tr>
-    <th>Long</th>
-    <th>Lat</th>
-    <th>Name</th>
-    <th>Address</th>
-    <th>Type</th>
-    <th>Signal</th>
+    <th>Date</th>
+    <th>First</th>
+    <th>Last</th>
+    <th>Reason</th>
+    <th>Planned</th>
+    <th>Timestamp</th>
     </tr>
 
     <?php
