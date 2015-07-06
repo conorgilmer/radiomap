@@ -10,7 +10,10 @@
 	<div class="row"> 
 	<h3>List of Radio Reports RTE LW 252</h3> 
 	</div> 
-	<div class="row"> 
+	<div class="row">
+		<p>
+        	<a href="create.php" class="btn btn-success">Create</a>
+                </p>
 		<table class="table table-striped table-bordered"> 
 		<thead> 
 		<tr> 
