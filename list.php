@@ -56,8 +56,7 @@ if (!$result) {
     <th>Lat</th>
     <th>Name</th>
     <th>Address</th>
-    <th>Type</th>
-    <th>Signal</th>
+    <th colspan="2">Signal</th>
     </tr>
 
     <?php
@@ -72,8 +71,7 @@ while ($row = @mysql_fetch_assoc($result)){
             <td>". $row['lat'] ." </td>
             <td>". $row['name'] ." </td>
             <td>". $row['address'] ." </td>
-            <td>". $row['type'] ." </td>
-            <td>". $row['signal'] ." </td>
+            <td colspan=2>". $row['signal'] ." </td>
             </tr>";
 }
 ?>
