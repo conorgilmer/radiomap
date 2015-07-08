@@ -36,8 +36,8 @@
 		echo '<td>'. $row['lng'] . '</td>'; 
 		echo '<td>'. $row['name'] . '</td>';
 		echo '<td>'. $row['address'] . '</td>';
-		echo '<td>'. $row['type'] . '</td>';
-		echo '<td>'. $row['signal'] . '</td>';
+		echo '<td>'. $row['typ'] . '</td>';
+		echo '<td>'. $row['sig'] . '</td>';
 		echo '</tr>'; }
 	 Database::disconnect(); 
 	?> 
