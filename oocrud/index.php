@@ -23,6 +23,7 @@
 			<th>Address</th> 
 			<th>Type</th> 
 			<th>Signal</th> 
+			<th>Action</th> 
 		</tr> 
 		</thead> 
 		<tbody> 
@@ -38,6 +39,13 @@
 		echo '<td>'. $row['address'] . '</td>';
 		echo '<td>'. $row['typ'] . '</td>';
 		echo '<td>'. $row['sig'] . '</td>';
+echo '<td width=250>';
+	   	echo '<a class="btn" href="read.php?id='.$row['id'].'">Read</a>';
+	   	echo ' '; //spacer may use colspan
+	   	echo '<a class="btn btn-success" href="update.php?id='.$row['id'].'">Update</a>';
+	   	echo ' '; //spacer
+	   	echo '<a class="btn btn-danger" href="delete.php?id='.$row['id'].'">Delete</a>';
+	   	echo '</td>';
 		echo '</tr>'; }
 	 Database::disconnect(); 
 	?> 
