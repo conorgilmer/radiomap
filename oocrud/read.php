@@ -59,6 +59,46 @@
 						    </label>
 					    </div>
 					  </div>
+					  <div class="control-group">
+					    <label class="control-label">Longitude</label>
+					    <div class="controls">
+					      	<label class="checkbox">
+						     	<?php echo $data['lng'];?>
+						    </label>
+					    </div>
+					  </div>
+					  <div class="control-group">
+					    <label class="control-label">Latitude</label>
+					    <div class="controls">
+					      	<label class="checkbox">
+						     	<?php echo $data['lat'];?>
+						    </label>
+					    </div>
+					  </div>
+					  <div class="control-group">
+					    <label class="control-label">Signal</label>
+					    <div class="controls">
+					      	<label class="checkbox">
+						     	<?php echo $data['sig'];?>
+						    </label>
+					    </div>
+					  </div>
+					  <div class="control-group">
+					    <label class="control-label">Type</label>
+					    <div class="controls">
+					      	<label class="checkbox">
+						     	<?php echo $data['typ'];?>
+						    </label>
+					    </div>
+					  </div>
+					  <div class="control-group">
+					    <label class="control-label">Logged</label>
+					    <div class="controls">
+					      	<label class="checkbox">
+						     	<?php echo $data['tstamp'];?>
+						    </label>
+					    </div>
+					  </div>
 					    <div class="form-actions">
 						  <a class="btn" href="index.php">Back</a>
 					   </div>
