@@ -11,10 +11,12 @@ if(isset($_POST['btn-save']))
 	$address = $_POST['address'];
 	//$type = $_POST['type'];
 	$type = "RX"; 
+	$freq = "252"; 
+	$band = "LW"; 
 	$email = $_POST['email'];
 	$signal = $_POST['signal'];
 	
-	$res=$con->insert($lng, $lat, $name, $address, $type, $signal, $email);
+	$res=$con->insert($lng, $lat, $name, $address, $type, $freq, $band, $signal, $email);
 	if($res)
 	{
 		?>
@@ -59,10 +61,8 @@ if(isset($_POST['btn-save']))
 
 
     <tr>
-    <td colspan="4"><input type="text" name="lng" placeholder="Longtitude" required /></td>
-    </tr>
-    <tr>
-    <td colspan="4"><input type="text" name="lat" placeholder="Latitude" required /></td>
+    <td colspan="2"><input type="text" name="lng" placeholder="Longtitude" required /></td>
+    <td colspan="2"><input type="text" name="lat" placeholder="Latitude" required /></td>
     </tr>
     <tr>
     <td colspan="4"><input type="text" name="name" placeholder="Name" required /></td>
@@ -77,7 +77,7 @@ if(isset($_POST['btn-save']))
     <td colspan="4"><input type="text" name="signal" placeholder="Signal" required /></td>
     </tr>
     <tr>
-    <td colspan="4"><input type="text" name="email" placeholder="Email Address"  /></td>
+    <td colspan="4"><input type="text" name="email" placeholder="Email Address (wont be shown) "  /></td>
     </tr>
     <tr>
     <td colspan="4">

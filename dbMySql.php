@@ -9,9 +9,9 @@ class DB_con
   mysql_select_db(DB, $conn);
  }
  
- public function insert($lng,$lat,$name,$address,$type,$signal,$email)
+ public function insert($lng,$lat,$name,$address,$type,$freq,$band,$signal,$email)
  {
-  $res = mysql_query("INSERT markers(id, lat,lng,name,address,type,signal, email, tstamp) VALUES('','$lat','$lng','$name','$address', '$type', '$signal', '$email', now())");
+  $res = mysql_query("INSERT markers(id, lat,lng,name,address,type, freq, band,signal, email, tstamp) VALUES('','$lat','$lng','$name','$address', '$type', '$freq', '$band' ,'$signal', '$email', now())");
   return $res;
  }
  
