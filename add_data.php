@@ -61,8 +61,8 @@ if(isset($_POST['btn-save']))
 
 
     <tr>
-    <td colspan="2"><input type="text" name="lng" placeholder="Longtitude" required /></td>
     <td colspan="2"><input type="text" name="lat" placeholder="Latitude" required /></td>
+    <td colspan="2"><input type="text" name="lng" placeholder="Longtitude" required /></td>
     </tr>
     <tr>
     <td colspan="4"><input type="text" name="name" placeholder="Name" required /></td>
