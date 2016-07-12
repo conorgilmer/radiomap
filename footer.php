@@ -1,10 +1,23 @@
 
 <!--footer.php -->
+<div>
+    <hr /><br/>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- CGPersonalPages -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-5970215238412239"
+     data-ad-slot="1295774503"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
 
 <div id="footer">
         <div id="content">
     <hr /><br/>
-    <label>2015 &copy; No Copyright. Contact:  <a href="mailto:conor.gilmer@gmail.com"> conor.gilmer@gmail.com</a>  </label>
+    <label>2014-2016 &copy; No Copyright. Contact:  <a href="mailto:conor.gilmer@gmail.com"> conor.gilmer@gmail.com</a>  </label>
     </div>
 </div>
 
@@ -12,6 +25,7 @@
 </center>
 
 <!-- Piwik -->
+<!-- server down
 	<script type="text/javascript">
 		var _paq = _paq || [];
 										_paq.push(["trackPageView"]);
@@ -28,6 +42,7 @@
 			s.parentNode.insertBefore(g, s);
 		})();
 	</script>
+-->
 <!-- End Piwik Code -->
 
 <!-- google metrics -->
