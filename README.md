@@ -13,4 +13,5 @@ Map Radio Recption in North East Europe where RTE Long Wave 252
 + add email field to get details
 + add panel for SINPO 
 + validation
-
++ add Bing Maps
++ add Open Street Map
